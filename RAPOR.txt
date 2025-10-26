@@ -39,3 +39,11 @@ echo > RAPOR.txt
 git status
 git add RAPOR.txt
 git commit -m "rapor"
+echo > index.html
+echo > style.css
+git add index.html
+git commit -m "üçüncü commit"
+git push
+git add style.css
+git commit -m "css dosyası"
+git push
