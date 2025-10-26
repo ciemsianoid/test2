@@ -2,7 +2,7 @@
 Git Ödevi Raporu
 
 1. Yeni Klasör Oluşturma
-Bilgisayarımda yeni bir klasör oluşturdum ve adını 'git_odevi' yaptım.
+Bilgisayarımda yeni bir klasör oluşturdum ve adını 'deneme' yaptım.
 
 2. Git Deposu Oluşturma
 Komut satırında klasörün içine girip şu komutu çalıştırdım:
@@ -11,12 +11,12 @@ Bu komut, klasörün içinde boş bir Git deposu oluşturdu.
 
 3. Dosya Oluşturma ve Git'e Ekleme
 Yeni bir dosya oluşturdum:
-echo "Merhaba Git" > deneme.txt
+echo > rapor.txt
 Durumu kontrol ettim:
 git status
 Sonra dosyayı geçici alana ekledim ve commit yaptım:
-git add deneme.txt
-git commit -m "İlk commit"
+git add RAPOR.txt
+git commit -m "rapor"
 
 4. Çalışma Alanı, Geçici Alan ve Depo Farkları
 Alan: Çalışma Alanı (Working Directory)
@@ -35,7 +35,7 @@ Açıklama: Commit işlemi sonrası değişikliklerin kalıcı olarak saklandı�
 mkdir git_odevi
 cd git_odevi
 git init
-echo "Merhaba Git" > deneme.txt
+echo > RAPOR.txt
 git status
-git add deneme.txt
-git commit -m "İlk commit"
+git add RAPOR.txt
+git commit -m "rapor"
