@@ -1,0 +1,41 @@
+
+Git Ödevi Raporu
+
+1. Yeni Klasör Oluşturma
+Bilgisayarımda yeni bir klasör oluşturdum ve adını 'git_odevi' yaptım.
+
+2. Git Deposu Oluşturma
+Komut satırında klasörün içine girip şu komutu çalıştırdım:
+git init
+Bu komut, klasörün içinde boş bir Git deposu oluşturdu.
+
+3. Dosya Oluşturma ve Git'e Ekleme
+Yeni bir dosya oluşturdum:
+echo "Merhaba Git" > deneme.txt
+Durumu kontrol ettim:
+git status
+Sonra dosyayı geçici alana ekledim ve commit yaptım:
+git add deneme.txt
+git commit -m "İlk commit"
+
+4. Çalışma Alanı, Geçici Alan ve Depo Farkları
+Alan: Çalışma Alanı (Working Directory)
+Açıklama: Proje dosyalarının bulunduğu yerdir. Henüz Git’e kaydedilmemiş değişiklikler buradadır.
+Örnek: deneme.txt dosyasını oluşturduğunda buradadır.
+
+Alan: Geçici Alan (Staging Area)
+Açıklama: Commit öncesi hazırlık alanıdır. Değişiklikler burada seçilir.
+Örnek: git add deneme.txt
+
+Alan: Depo (Repository)
+Açıklama: Commit işlemi sonrası değişikliklerin kalıcı olarak saklandığı yerdir.
+Örnek: git commit -m "İlk commit"
+
+5. Kullanılan Komutlar
+mkdir git_odevi
+cd git_odevi
+git init
+echo "Merhaba Git" > deneme.txt
+git status
+git add deneme.txt
+git commit -m "İlk commit"
